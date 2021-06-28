@@ -24,7 +24,10 @@ header {
     background-color: white
 }
 
-/* nav */
+
+
+
+ /* <!-- nav scritte di selezione orizontali --> */
 .nav {
     text-transform: uppercase;
     list-style-type: none;
@@ -34,49 +37,55 @@ header {
     color: grey;
 }
 
+
 .nav ul, 
 .nav li {
     display: inline-block;
     height: 60px;
-    line-height : 1.5;
 }
+
 
 .nav li{
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: 100px;
 }
+
 
 .nav li:first-child  {
     margin-left: 0;
 }
+ /* <!-- nav scritte di selezione orizontali --> */
 
 
 
 
 
 
-h4, p {
-   font-family: Arial, Helvetica, sans-serif;
-   color: grey;
-}
 
 
 
 
 
-/* main */
+
+
+
+
+                
+ /* <!-- corpo prima img di Donna in Preghiera --> */
 .hero {
-    /* background-color: rgba(225,214,122,255); */
     background-position: center;
     margin-bottom: 20px;
-    height: 800px;
+    height: 940px;
     position: relative;
     width: 100%;
+    
 }
 
 
 .hero img {
     width: 100%;
+    filter: brightness(70%);
 }
 
 
@@ -84,15 +93,20 @@ h4, p {
     position: absolute;
     left: 15px; bottom: 5px;
     color: white;
-}
+    margin-left: 60px;
+}  
+
 
 .hero h1 {
-    font-size: 50px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .hero p {
-    margin-top: 30px;
+    margin-top: 290px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -129,6 +143,16 @@ img {
 }
 
 
+
+
+
+h4, p {
+   font-family: Arial, Helvetica, sans-serif;
+   color: grey;
+}
+
+
+
 .imgsecondarie {
     width: 100%;
 }
@@ -137,21 +161,37 @@ img {
 
 .containerimg {
     height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+
+
+
+
+
+
 
 
 .imgUno{
-    background-image: url("");
-}
+    background-image: url("..//img/img-1.jpg");
+    filter: brightness(70%);
+    border-radius: 20px
+}   
 
 .imgDue {
-
-}
-
+    background-image: url("../img/banner-2.jpg");
+    filter: brightness(70%);
+    border-radius: 20px
+} 
 
 .imgTre {
-
+    background-image: url("../img/img-3.jpg");
+    filter: brightness(70%);
+    border-radius: 20px
 }
+
 
 
 
@@ -185,12 +225,14 @@ img {
 
 
 /* footer */
-
-
-
-/* .footer {
+.footer {
     height: 80px;
     margin: 10px 0 20px 0;
-    text-align: ;
-}   */
+    text-align: center;
+    line-height: 200px;
+}  
+
+.cuoreRosso {
+    color: red;
+}
 
