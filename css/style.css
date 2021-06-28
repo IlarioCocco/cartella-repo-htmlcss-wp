@@ -46,6 +46,8 @@ li {
 
 
 
+
+
 /* main */
 .hero {
     /* background-color: rgba(225,214,122,255); */
@@ -81,13 +83,14 @@ li {
 
 .colleft, .colcenter, .colright  {
     float: left;
-    background-color: rgba(171,207,231,255);
+    background-color: white
     border: 1px;
 }
 
 
 .colleft, .colright {
     width: 20%;
+    display: inline-block;
 }
 
 
@@ -98,9 +101,9 @@ li {
 
 
 /* footer */
-.footer {
+/* .footer {
     background-color: rgb(144, 0, 247);
     height: 80px;
     margin: 10px 0 20px 0;
-}
+} */
 
