@@ -1,0 +1,79 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* common */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+header {
+    margin-bottom: 20px;
+    height: 150px;
+    background-color: rgba(229,121,230,255);
+
+}
+
+
+/* main */
+.hero {
+    background-color: rgba(225,214,122,255);
+
+    margin-bottom: 20px;
+    height: 600px;
+}
+
+
+.leadership {
+    background-color: rgba(0,134,255,255);
+
+}
+
+
+.leadership-title {
+    background-color: rgba(171,207,231,255);
+    height: 80px;
+}
+
+
+.row {
+    padding: 50px; 0;
+}
+
+
+.colleft, .colcenter, .colright  {
+    float: left;
+    background-color: rgba(171,207,231,255);
+    border: 1px;
+}
+
+
+.colleft, .colright {
+    width: 20%;
+}
+
+
+.colcenter {
+    width: calc(60% - 40px);
+    margin: 0 20px;
+}
+
+
+/* footer */
+.footer {
+    background-color: rgb(144, 0, 247);
+    height: 80px;
+    margin: 10px 0 20px 0;
+}
+
