@@ -31,32 +31,46 @@ header {
     padding-left: 0;
     margin-left: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: grey;
 }
 
 li {
     display: inline-block;
-    margin
+    height: 60px;
+    line-height : 1.5;
 }
+
+
+
+
+
 
 
 /* main */
 .hero {
-    background-color: rgba(225,214,122,255);
-
+    /* background-color: rgba(225,214,122,255); */
+    background-position: center;
     margin-bottom: 20px;
-    height: 600px;
+    height: 800px;
+    position: relative;
+    width: 900px;
+}
+
+.h1 {
+    position: absolute;
 }
 
 
 .leadership {
-    background-color: rgba(0,134,255,255);
-
+    background-color: white;
+    height: 80px;
+    line-height: 30px;
 }
 
 
 .leadership-title {
     background-color: rgba(171,207,231,255);
-    height: 80px;
+    
 }
 
 
