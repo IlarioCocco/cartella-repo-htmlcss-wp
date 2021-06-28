@@ -34,15 +34,31 @@ header {
     color: grey;
 }
 
-li {
+.nav ul, 
+.nav li {
     display: inline-block;
     height: 60px;
     line-height : 1.5;
 }
 
+.nav li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav li:first-child  {
+    margin-left: 0;
+}
 
 
 
+
+
+
+h4, p {
+   font-family: Arial, Helvetica, sans-serif;
+   color: grey;
+}
 
 
 
@@ -55,42 +71,100 @@ li {
     margin-bottom: 20px;
     height: 800px;
     position: relative;
-    width: 900px;
+    width: 100%;
 }
 
-.h1 {
-    position: absolute;
+
+.hero img {
+    width: 100%;
 }
+
+
+.hero .content {
+    position: absolute;
+    left: 15px; bottom: 5px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    margin-top: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+img {
+    border-radius: 20px
+}
+
+
 
 
 .leadership {
     background-color: white;
     height: 80px;
     line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 
 .leadership-title {
     background-color: rgba(171,207,231,255);
-    
 }
 
 
 .row {
-    padding: 50px; 0;
+    padding: 50px 0;
 }
+
+
+.imgsecondarie {
+    width: 100%;
+}
+
+
+
+.containerimg {
+    height: 250px;
+}
+
+
+.imgUno{
+    background-image: url("");
+}
+
+.imgDue {
+
+}
+
+
+.imgTre {
+
+}
+
 
 
 .colleft, .colcenter, .colright  {
     float: left;
-    background-color: white
-    border: 1px;
+    background-color: white;
+    border: 1px solid black;
 }
 
 
 .colleft, .colright {
     width: 20%;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 
